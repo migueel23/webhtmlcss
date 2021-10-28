@@ -139,6 +139,86 @@ a {
 #tablas footer {
     background-color: rgba(0, 0, 0, 0.87);
 }
+#listas h1 {
+    color: rgb(75, 75, 230);
+}
+#listas h2 {
+    color: orange;
+    padding-left: 20px;
+}
+#listas p {
+    padding-left: 20px;
+}
+#listas footer {
+    background-color: orange;
+}
+#listas nav li {
+    list-style-type: none;
+    text-align: center;
+    color: orange;
+    font-size: 22px;
+    border: solid 1px orange;
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+#listas nav ul li:hover {
+    color: rgb(75, 75, 230);
+    background-color: orange;
+}
+#formu h1 {
+    color: orange;
+}
+#formu form {
+    padding-left: 20px;
+}
+#formu p {
+    padding-left: 20px;
+}
+#formu h2 {
+    color: orange;
+    padding-left: 20px;
+}
+#formu footer {
+    background-color: black;
+}
+#formu nav li {
+    list-style-type: none;
+    text-align: center;
+    color: orange;
+    font-size: 22px;
+    border: solid 1px orange;
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+#formu nav ul li:hover {
+    color: rgb(75, 75, 230);
+    background-color: orange;
+}
+#multimedia footer {
+    background-color: greenyellow;
+}
+#multimedia h1 {
+    color: green;
+}
+#multimedia h2 {
+    color: greenyellow;
+}
+#multimedia nav li {
+    list-style-type: none;
+    text-align: center;
+    color: green;
+    font-size: 22px;
+    border: solid 1px green;
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+#multimedia nav ul li:hover {
+    color: greenyellow;
+    background-color: green;
+}
 .etiquetas {
     color: red;
     font-size: 32px;
@@ -245,11 +325,9 @@ a {
     list-style: disc;
 }
 #listapersoo {
-    list-style-image: ;
+    list-style-image:url(../img/corazon16.png) ;
 }
-#formu {
-    padding-left: 20px;
-}
+
 #multimedia {
     text-align: center;
 }

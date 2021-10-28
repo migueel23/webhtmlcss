@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HTML - CSS</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <img src="img/computer.jpg" alt="computer">
+        </header>
+        <div id="principal">
+            <nav>
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="parrafos.html"><li>Párrafos</li></a>
+                    <a href="enlaces.html"><li>Enlaces</li></a>
+                    <a href="tablas.html"><li>Tablas</li></a>
+                    <a href="listas.html"><li>Listas</li></a>
+                    <a href="formu.html"><li>Formularios</li></a>
+                    <a href="multimedia.html"><li>Multimedia</li></a>
+                    <a href="formhtml5.html"><li>Form Html5</li></a>
+                </ul>
+            </nav>
+            <div id="contenido">
+                <div id="tablas">
+                    <div id="titulos">
+                        <h1>Tablas</h1>
+                    </div>
+                    <p>Para hacer tablas utilizaremos las etiquetas <span class="etiquetas">table</span>, <span
+                        class="etiquetas">tr</span>, <span class="etiquetas">th</span> y <span class="etiquetas">td</span>
+                </p>
+                <h2 class="h2bonito">Tabla default</h2>
+                <div id="tabladefault">
+                    <table border="2">
+                        <thead>
+                            <tr>
+                                <th>Archivo</th>
+                                <th>Editar</th>
+                                <th>Insertar</th>
+                                <th>Ver</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Guardar</td>
+                                <td>Letra</td>
+                                <td>Imagen</td>
+                                <td>Presentación</td>
+                            </tr>
+                            <tr>
+                                <td>Como</td>
+                                <td>Tamaño</td>
+                                <td>Foto</td>
+                                <td>Pantalla</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <h2 class="h2bonito">Tabla con combinaciones de filas y columnas</h2>
+            <div id="tablacombi">
+                <table border="2">
+                    <thead>
+                        <tr>
+                            <th>Archivo</th>
+                            <th>Editar</th>
+                            <th>Insertar</th>
+                            <th>Ver</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="2">Guardar</td>
+                            <td colspan="2">Letra</td>
+                            <td>Presentación</td>
+                        </tr>
+                        <tr>
+                            <td>Tamaño</td>
+                            <td>Foto</td>
+                            <td>Pantalla</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+            <h2 class="h2bonito">Tablas con combinaciones par e impar</h2>
+            <div id="tablaparimpar"><table border="2"> 
+
+                <thead>
+                    <tr class="azulco">
+                        <th>Archivo</th>
+                        <th>Editar</th>
+                        <th>Insertar</th>
+                        <th>Ver</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="azulco2">
+                        <td>Guardar</td>
+                        <td>Letra</td>
+                        <td>Imagen</td>
+                        <td>Presentación</td>
+                    </tr>
+                    <tr class="azulco ">
+                        <td>Como</td>
+                        <td>Tamaño</td>
+                        <td>Foto</td>
+                        <td>Pantalla</td>
+                    </tr>
+                </tbody>
+                 </table>
+            </div> 
+            <div id="tablahorario"><table>
+                <h2 class="h2bonito">Horario</h2>
+                <thead>
+                    <tr>
+                        <th class="tamanio" colspan="6"><em>S1DAW</em></th>
+                
+                    
+                    <tr>
+                </thead>
+                
+                <tbody>
+                    
+                    <tr>
+                        <th></th>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miércoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                    </tr>
+                    <tr>
+                        <td class="gris">8:15 <br>9:10</td>
+                        <td class="fol">FOL <br>Prud. Ga, Es <br>(1 B-301) <br>FOL</td>
+                        <td class="ende">ENDE <br>Polo Or, Ed <br>(1 B-301) <br>FOL</td>
+                        <td  rowspan="2" class="bdd">BDD <br>Bern. Be, Cr <br>(1 B-301) <br>BDD</td>
+                        <td class="ing">ING <br>Guti Sa, JoÁn <br>(1 B-301) <br>ING</td>
+                        <td rowspan="2" class="lmsg">LMSG <br>Puli. Mo, FrJo <br>(1 B-301) <br>LMSG</td>
+                    </tr>
+                    <tr>
+                        <td class="gris">9:10 <br>10:05</td>
+                        <td rowspan="2" class="sisi">SISI <br>Mart Ru, To <br>(1 B-301) <br>SISI</td>
+                        <td class="ing">ING <br>Guti Sa, JoÁn <br>(1 B-301) <br>ING</td>
+                        <td class="fol">FOL <br>Prud. Ga, Es <br>(1 B-301) <br>FOL</td>
+                    </tr>
+                    <tr>
+                        <td class="gris">10:05 <br>11:00</td>
+                        <td class="prog">PROG <br>Mart. Ca, JoJa <br>(1 B-301) <br>PROG</td>
+                        <td class="ende">ENDE <br>Polo Or, Ed <br>(1 B-301) <br>FOL</td>
+                        <td class="sisi">SISI <br>Mart Ru, To <br>(1 B-301) <br>SISI</td>
+                        <td class="sisi">SISI <br>Mart Ru, To <br>(1 B-301) <br>SISI</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="gris" colspan="5">recreo</td>
+                    </tr>
+                    <tr>
+                        <td class="gris">11:30 <br>12:25</td>
+                        <td class="ende">ENDE <br>Polo Or, Ed <br>(1 B-301) <br>FOL</td>
+                        <td class="prog">PROG <br>Mart. Ca, JoJa <br>(1 B-301) <br>PROG</td>
+                        <td rowspan="2" class="prog">PROG <br>Mart. Ca, JoJa <br>(1 B-301) <br>PROG</td>
+                        <td class="sisi">SISI <br>Mart Ru, To <br>(1 B-301) <br>SISI</td>
+                        <td class="sisi">SISI <br>Mart Ru, To <br>(1 B-301) <br>SISI</td>
+                    </tr>
+                    <tr>
+                        <td class="gris">12:25 <br>13:20</td>
+                        <td rowspan="2" class="bdd">BDD <br>Bern. Be, Cr <br>(1 B-301) <br>BDD</td>
+                        <td rowspan="2" class="bdd">BDD <br>Bern. Be, Cr <br>(1 B-301) <br>BDD</td>
+                        <td rowspan="2" class="lmsg">LMSG <br>Puli. Mo, FrJo <br>(1 B-301) <br>LMSG</td>
+                        <td rowspan="2" class="prog">PROG <br>Mart. Ca, JoJa <br>(1 B-301) <br>PROG</td>
+                    </tr>
+                    <tr>
+                        <td class="gris">13:20 <br>14:15</td>
+                        <td class="fol">FOL <br>Prud. Ga, Es <br>(1 B-301) <br>FOL</td>
+                    </tr>
+
+                </tbody>
+            </table>
+            </div>    
+                </div>
+            </div>
+            <div class="cb"></div>
+
+        </div>
+        <footer>
+            S1DAW - &copy; 2021 Azarquiel
+        </footer>
+    </div>
+
+
+
+</body>
+</html>

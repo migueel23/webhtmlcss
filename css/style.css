@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+}
+#container {
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px red;
+}
+
+
+header img {
+    width: 100%;
+    height: 150px;
+}
+nav {
+    width: 20%;
+    float: left;
+}
+#contenido {
+    width: 80%;
+    float: right;
+    padding-bottom: 30px;
+}
+footer {
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+footer a {
+    color: white;
+}
+.cb {
+    clear: both;
+}
+nav ul, nav li {
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    list-style-type: none;
+    text-align: center;
+    color: red;
+    font-size: 22px;
+    border: solid 1px red;
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+nav ul li:hover {
+    color: white;
+    background-color: red   ;
+}
+#enlaces nav li {
+    list-style-type: none;
+    text-align: center;
+    color: blue;
+    font-size: 22px;
+    border: solid 1px blue;
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+#enlaces nav ul li:hover {
+    color: blue;
+    background-color: cyan;
+}
+a {
+    text-decoration: none;
+}
+.text-azulo {
+    color: rgb(2, 2, 85);
+}
+#home {
+    text-align: center;
+}
+.h2bonito {
+    color: blue;
+    padding-left: 20px;
+    text-align: center;
+}
+#enlaces h2 {
+    color: rgb(41, 41, 231);
+}
+#enlaces p {
+    padding-left: 20px;
+}
+#enlaces h2 {
+    padding-left: 20px;
+}
+#enlaces footer {
+    background-color: cyan;
+    color: blue;
+}
+#enlaces h1 {
+    color: blue;
+}
+#parrafos p {
+    padding-left: 20px;
+}
+#parrafos nav li {
+    list-style-type: none;
+    text-align: center;
+    color: rgb(179, 3, 3);
+    font-size: 22px;
+    border: solid 1px fuchsia;
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+#parrafos nav ul li:hover {
+    color: white;
+    background-color: rgb(207, 2, 2)   ;
+}
+.etiquetas {
+    color: red;
+    font-size: 32px;
+}
+#titulos {
+    color: red;
+    text-align: center;
+}
+#tabladefault table{
+    width: 70%;
+    margin: 0 auto;
+}
+#tabladefault th {
+    color:white;
+    background-color: red;
+}
+#tabladefault td {
+    color: red;
+    text-align: center;
+}
+#tablacombi table{
+    width: 70%;
+    margin: 0 auto;
+}
+#tablacombi th {
+    color: yellow;
+    background-color: darkgreen
+}
+#tablacombi td {
+    color: darkgreen;
+    background-color: yellow;
+    text-align: center;
+}
+#tablaparimpar table {
+    width: 70%;
+    margin: 0 auto;
+}
+#tablaparimpar td {
+    text-align: center;
+}
+.azulco {
+    color: cyan;
+    background-color: darkblue;
+}
+.azulco2{
+    color: darkblue;
+    background-color: cyan;
+}
+#tablahorario table {
+    border: solid 1px black;
+    text-align: center;
+    margin: 0 auto;
+    width: 800px;
+}
+.tamanio {
+    font-size: 25px;
+}
+#tablahorario table th {
+    color: #277F73;
+}
+.gris {
+    color: #277F73;
+}
+
+#tablahorario th , #tablahorario td {
+    border: solid 1px black;
+}
+.fol {
+    background-color: #FFD231;
+}
+.ende {
+    background-color: #7B7CBF;
+}
+.bdd {
+    background-color: #81FF81;
+}
+.ing {
+    background-color: #EFF0C8;
+}
+.lmsg {
+    background-color: #FE8081;
+}
+.sisi {
+    background-color: #C9A0C8;
+}
+.prog {
+    background-color: #96DC96;
+}
+#listas {
+   padding: 15px;
+}
+.h2bonito1 {
+    color: blue;
+    text-align: left;
+
+}
+#listapersod li {
+ list-style: square;
+}
+#listapersod li li {
+    list-style: circle;
+}
+   #listapersod li li li {
+    list-style: disc;
+}
+#listapersoo {
+    list-style-image: ;
+}
+#formu {
+    padding-left: 20px;
+}
+#multimedia {
+    text-align: center;
+}
+#formhtml5 {
+    padding-left: 20px;
+}

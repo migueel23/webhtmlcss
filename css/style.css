@@ -113,6 +113,32 @@ a {
     color: white;
     background-color: rgb(207, 2, 2)   ;
 }
+#tablas h1 {
+    color: black
+}
+#tablas h2 {
+    color: rgba(0, 0, 0, 0.623);
+}
+#tablas p {
+    padding-left: 20px;
+}
+#tablas nav li {
+    list-style-type: none;
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    border: solid 1px black;
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+#tablas nav ul li:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.877)   ;
+}
+#tablas footer {
+    background-color: rgba(0, 0, 0, 0.87);
+}
 .etiquetas {
     color: red;
     font-size: 32px;
